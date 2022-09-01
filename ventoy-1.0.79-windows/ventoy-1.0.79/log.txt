@@ -1,0 +1,1156 @@
+[2022/08/30 08:49:10.978] 
+##################################################################################
+######################### Ventoy2DiskX86 (1.0.79) #########################
+##################################################################################
+[2022/08/30 08:49:10.979] Current directory:<C>
+[2022/08/30 08:49:10.987] id=19136/31428
+[2022/08/30 08:49:10.987] PPath:<C:\Windows\explorer.exe>
+[2022/08/30 08:49:10.988] PSize:<5025904 4908KB>
+[2022/08/30 08:49:10.988] Lunch main process 0
+[2022/08/30 08:49:10.989] Control Flag: 0 1 1
+[2022/08/30 08:49:10.992] Windows Version: <<Windows 11 Pro, 64-bit (Build 22000.856)>>
+[2022/08/30 08:49:10.992] 
+===================== Enum All PhyDrives =====================
+[2022/08/30 08:49:10.993] RegOpenKeyExA <SYSTEM\CurrentControlSet\Services\disk\Enum> Ret:0
+[2022/08/30 08:49:10.993] RegQueryValueExA <Count> ret:0  Size:4 Value:2
+[2022/08/30 08:49:10.994] GetPhysicalDriveCount: 2
+[2022/08/30 08:49:10.994] Logical Drives: 0x3c
+[2022/08/30 08:49:10.994] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/30 08:49:10.995] C --> 0
+[2022/08/30 08:49:10.995] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/30 08:49:10.995] D --> 0
+[2022/08/30 08:49:10.996] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:32194527232
+[2022/08/30 08:49:10.996] E --> 1
+[2022/08/30 08:49:10.997] LogicalDrive:\\.\F: PhyDrive:1 Offset:32195575808 ExtentLength:33554432
+[2022/08/30 08:49:10.997] F --> 1
+[2022/08/30 08:49:10.999] Create file Handle:00000138 \\.\PhysicalDrive0 status:0
+[2022/08/30 08:49:11.000] PHYSICALDRIVE0 size 512110190592 bytes
+[2022/08/30 08:49:11.001] Create file Handle:00000138 \\.\PhysicalDrive1 status:0
+[2022/08/30 08:49:11.002] PHYSICALDRIVE1 size 32229130240 bytes
+[2022/08/30 08:49:11.002] PhyDrv:0 BusType:RAID Removable:0 Size:512GB(512110190592) Name:NVMe SAMSUNG MZALQ512HALU-000L2
+[2022/08/30 08:49:11.002] PhyDrv:1 BusType:USB  Removable:1 Size:32GB(32229130240) Name:AI Mass Storage
+[2022/08/30 08:49:11.003] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/30 08:49:11.004] Logical Drive:C  ===> PhyDrive:0
+[2022/08/30 08:49:11.004] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/30 08:49:11.004] Logical Drive:D  ===> PhyDrive:0
+[2022/08/30 08:49:11.005] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:32194527232
+[2022/08/30 08:49:11.005] Logical Drive:E  ===> PhyDrive:1
+[2022/08/30 08:49:11.006] LogicalDrive:\\.\F: PhyDrive:1 Offset:32195575808 ExtentLength:33554432
+[2022/08/30 08:49:11.007] Logical Drive:F  ===> PhyDrive:1
+[2022/08/30 08:49:11.008] Create file Handle:00000144 \\.\PhysicalDrive1 status:0
+[2022/08/30 08:49:11.009] Read MBR Ret:1 Size:512 code:183
+[2022/08/30 08:49:11.009] =========== Disk1 MBR Partition 1 ============
+[2022/08/30 08:49:11.010] PartTbl.Active = 0x80
+[2022/08/30 08:49:11.010] PartTbl.FsFlag = 0x7
+[2022/08/30 08:49:11.010] PartTbl.StartSectorId = 2048
+[2022/08/30 08:49:11.010] PartTbl.SectorCount = 62879936
+[2022/08/30 08:49:11.011] PartTbl.StartHead = 32
+[2022/08/30 08:49:11.011] PartTbl.StartSector = 33
+[2022/08/30 08:49:11.011] PartTbl.StartCylinder = 0
+[2022/08/30 08:49:11.012] PartTbl.EndHead = 56
+[2022/08/30 08:49:11.012] PartTbl.EndSector = 46
+[2022/08/30 08:49:11.012] PartTbl.EndCylinder = 842
+[2022/08/30 08:49:11.012] =========== Disk1 MBR Partition 2 ============
+[2022/08/30 08:49:11.013] PartTbl.Active = 0x0
+[2022/08/30 08:49:11.013] PartTbl.FsFlag = 0xef
+[2022/08/30 08:49:11.013] PartTbl.StartSectorId = 62881984
+[2022/08/30 08:49:11.013] PartTbl.SectorCount = 65536
+[2022/08/30 08:49:11.014] PartTbl.StartHead = 56
+[2022/08/30 08:49:11.014] PartTbl.StartSector = 47
+[2022/08/30 08:49:11.014] PartTbl.StartCylinder = 842
+[2022/08/30 08:49:11.014] PartTbl.EndHead = 76
+[2022/08/30 08:49:11.015] PartTbl.EndSector = 62
+[2022/08/30 08:49:11.015] PartTbl.EndCylinder = 846
+[2022/08/30 08:49:11.015] =========== Disk1 MBR Partition 3 ============
+[2022/08/30 08:49:11.015] PartTbl.Active = 0x0
+[2022/08/30 08:49:11.016] PartTbl.FsFlag = 0x0
+[2022/08/30 08:49:11.016] PartTbl.StartSectorId = 0
+[2022/08/30 08:49:11.016] PartTbl.SectorCount = 0
+[2022/08/30 08:49:11.016] PartTbl.StartHead = 0
+[2022/08/30 08:49:11.017] PartTbl.StartSector = 0
+[2022/08/30 08:49:11.017] PartTbl.StartCylinder = 0
+[2022/08/30 08:49:11.017] PartTbl.EndHead = 0
+[2022/08/30 08:49:11.018] PartTbl.EndSector = 0
+[2022/08/30 08:49:11.018] PartTbl.EndCylinder = 0
+[2022/08/30 08:49:11.019] =========== Disk1 MBR Partition 4 ============
+[2022/08/30 08:49:11.019] PartTbl.Active = 0x0
+[2022/08/30 08:49:11.019] PartTbl.FsFlag = 0x0
+[2022/08/30 08:49:11.020] PartTbl.StartSectorId = 0
+[2022/08/30 08:49:11.020] PartTbl.SectorCount = 0
+[2022/08/30 08:49:11.021] PartTbl.StartHead = 0
+[2022/08/30 08:49:11.021] PartTbl.StartSector = 0
+[2022/08/30 08:49:11.021] PartTbl.StartCylinder = 0
+[2022/08/30 08:49:11.022] PartTbl.EndHead = 0
+[2022/08/30 08:49:11.022] PartTbl.EndSector = 0
+[2022/08/30 08:49:11.023] PartTbl.EndCylinder = 0
+[2022/08/30 08:49:11.023] PhysicalDrive1 is ventoy disk
+[2022/08/30 08:49:11.023] QueryDosDeviceA success \Device\Harddisk1\DR1
+[2022/08/30 08:49:11.025] [0] CreateFileA \\.\PhysicalDrive1 code:0 00000138
+[2022/08/30 08:49:11.025] Parse FAT fs...
+[2022/08/30 08:49:11.043] attach media success...
+[2022/08/30 08:49:11.179] GetVentoyVerInPhyDrive rc=0...
+[2022/08/30 08:49:11.179] VentoyVerInPhyDrive 1 is <1.0.66>...
+[2022/08/30 08:49:11.185] PhyDrive 1 is Ventoy Disk ver:1.0.66 SecureBoot:0
+[2022/08/30 08:49:11.186] <NVMe SAMSUNG MZALQ512HALU-000L2> is filtered for not USB type.
+[2022/08/30 08:49:11.236] Load languages from json file ...
+[2022/08/30 08:49:11.237] language json file len:226881 json parse:0
+[2022/08/30 08:49:11.238] Total 47 languages ...
+[2022/08/30 08:49:11.304] Combox select change, update secure boot option: 1 0
+[2022/08/30 08:49:21.165] #####################################################
+[2022/08/30 08:49:21.166] UpdateVentoy2PhyDrive try1 MBR PhyDrive1 <<AI Mass Storage 32GB>>
+[2022/08/30 08:49:21.166] #####################################################
+[2022/08/30 08:49:21.169] Lock disk for umount ............................ 
+[2022/08/30 08:49:21.169] QueryDosDeviceA success \Device\Harddisk1\DR1
+[2022/08/30 08:49:21.171] [0] CreateFileA \\.\PhysicalDrive1 code:0 000002E0
+[2022/08/30 08:49:21.172] FSCTL_LOCK_VOLUME success
+[2022/08/30 08:49:21.172] MBR StartSector in PartTbl:62881984
+[2022/08/30 08:49:21.172] MBR Reserved Disk Space:0 MB
+[2022/08/30 08:49:21.173] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/30 08:49:21.174] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/30 08:49:21.174] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:32194527232
+[2022/08/30 08:49:21.174] E: is belong to phydrive1
+[2022/08/30 08:49:21.175] LogicalDrive:\\.\F: PhyDrive:1 Offset:32195575808 ExtentLength:33554432
+[2022/08/30 08:49:21.176] F: is belong to phydrive1
+[2022/08/30 08:49:21.192] F:\ is ventoy logical drive
+[2022/08/30 08:49:21.193] Delete mountpoint F:\ ret:1 code:0
+[2022/08/30 08:49:21.203] Lock disk for update ............................ 
+[2022/08/30 08:49:21.204] QueryDosDeviceA success \Device\Harddisk1\DR1
+[2022/08/30 08:49:21.204] [0] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/30 08:49:21.204] Waiting for access on \\.\PhysicalDrive1 [\Device\Harddisk1\DR1]...
+[2022/08/30 08:49:21.310] [1] CreateFileA \\.\PhysicalDrive1 code:0 000002E4
+[2022/08/30 08:49:21.310] Opened \\.\PhysicalDrive1 for exclusive write access
+[2022/08/30 08:49:21.311] FSCTL_LOCK_VOLUME success
+[2022/08/30 08:49:21.316] Lock volume for update .......................... 
+[2022/08/30 08:49:21.316] GetVentoyVolumeName PhyDrive 1 SectorStart:62881984 PartOffset:32195575808
+[2022/08/30 08:49:21.317] Find volume:\\?\Volume{e7988f95-1183-465a-bd09-f166c4f19888}\
+[2022/08/30 08:49:21.317] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2022/08/30 08:49:21.318] NumberOfDiskExtents:1 DiskNumber:0
+[2022/08/30 08:49:21.318] This volume DiskNumber:0 offset:290455552
+[2022/08/30 08:49:21.319] Find volume:\\?\Volume{50c8befe-b39c-4fb5-b8a2-b3782ff11af9}\
+[2022/08/30 08:49:21.320] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2022/08/30 08:49:21.321] NumberOfDiskExtents:1 DiskNumber:0
+[2022/08/30 08:49:21.321] This volume DiskNumber:0 offset:215038820352
+[2022/08/30 08:49:21.322] Find volume:\\?\Volume{970277b4-243b-4c95-914d-248907526747}\
+[2022/08/30 08:49:21.322] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2022/08/30 08:49:21.322] NumberOfDiskExtents:1 DiskNumber:0
+[2022/08/30 08:49:21.323] This volume DiskNumber:0 offset:511061262336
+[2022/08/30 08:49:21.323] Find volume:\\?\Volume{9fd55eca-a039-11ec-99c4-7c8ae17db2dd}\
+[2022/08/30 08:49:21.323] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2022/08/30 08:49:21.324] NumberOfDiskExtents:1 DiskNumber:1
+[2022/08/30 08:49:21.324] This volume DiskNumber:1 offset:1048576
+[2022/08/30 08:49:21.324] Find volume:\\?\Volume{7faebfc5-0000-0000-0080-017f07000000}\
+[2022/08/30 08:49:21.325] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2022/08/30 08:49:21.325] NumberOfDiskExtents:1 DiskNumber:1
+[2022/08/30 08:49:21.326] This volume DiskNumber:1 offset:32195575808
+[2022/08/30 08:49:21.326] This volume match
+[2022/08/30 08:49:21.326] GetVentoyVolumeName return 0
+[2022/08/30 08:49:21.326] Now lock and dismount volume <\\?\Volume{7faebfc5-0000-0000-0080-017f07000000}>
+[2022/08/30 08:49:21.327] Failed to create file volume, errcode:32, wait and retry ...
+[2022/08/30 08:49:23.350] FSCTL_LOCK_VOLUME bRet:1 code:0
+[2022/08/30 08:49:23.353] FSCTL_DISMOUNT_VOLUME bRet:1 code:183
+[2022/08/30 08:49:24.067] Try write part2 bRet:1 dwSize:16384 code:183
+[2022/08/30 08:49:24.112] Write Ventoy to disk ............................ 
+[2022/08/30 08:49:24.113] FormatPart2Fat 62881984...
+[2022/08/30 08:49:24.120] Malloc whole img buffer success, now decompress ...
+[2022/08/30 08:49:25.020] decompress finished success
+[2022/08/30 08:49:25.021] VentoyProcSecureBoot 0 ...
+[2022/08/30 08:49:25.021] Open ventoy efi file 003F09C8 
+[2022/08/30 08:49:25.021] ventoy efi file size 1875968 ...
+[2022/08/30 08:49:25.021] Now delete all efi files ...
+[2022/08/30 08:49:25.022] Open bootx64 efi file 003F0E0C 
+[2022/08/30 08:49:25.793] Open ventoy efi file 003F09C8 
+[2022/08/30 08:49:25.794] ventoy efi file size 1261568 ...
+[2022/08/30 08:49:25.795] Now delete all efi files ...
+[2022/08/30 08:49:25.795] Open bootia32 efi file 003F0E0C 
+[2022/08/30 08:49:27.698] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:27.747] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:27.797] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:27.877] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:27.927] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:27.977] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:28.058] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:28.109] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:28.161] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:28.709] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:28.756] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:28.804] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:28.881] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:28.930] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:28.980] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:29.062] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:29.112] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:29.162] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:29.709] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:29.760] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:29.809] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:29.887] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:29.934] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:29.982] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:30.061] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:30.111] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:30.158] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:30.716] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:30.766] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:30.816] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:30.895] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:30.943] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:30.984] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.023] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.063] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.102] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.143] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.185] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.229] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.271] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.313] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.352] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.390] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.431] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.472] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.513] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.555] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.598] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.641] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.683] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.725] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.765] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.806] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.849] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.890] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.932] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:31.975] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:32.019] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:32.063] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:32.102] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:32.139] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:32.174] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:32.209] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:32.245] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 08:49:32.251] FSCTL_UNLOCK_VOLUME bRet:1 code:183
+[2022/08/30 08:49:32.251] Updating Boot Image ............................. 
+[2022/08/30 08:49:32.252] WriteGrubStage1ToPhyDrive ...
+[2022/08/30 08:49:32.262] Write MBR stage1 ...
+[2022/08/30 08:49:33.183] WriteFile Ret:1 dwSize:1048064 ErrCode:183
+[2022/08/30 08:49:33.191] Write resv data ret:1 dwSize:4096 Error:183
+[2022/08/30 08:49:33.192] Copy boot img success
+[2022/08/30 08:49:33.195] Boot image has no difference, no need to write.
+[2022/08/30 08:49:33.198] OK
+[2022/08/30 08:49:35.047] Combox select change, update secure boot option: 0 0
+[2022/08/30 09:35:24.349] ClearVentoyFromPhyDrive PhyDrive1 <<AI Mass Storage 32GB>>
+[2022/08/30 09:35:24.352] Lock disk for clean ............................. 
+[2022/08/30 09:35:24.352] QueryDosDeviceA success \Device\Harddisk1\DR1
+[2022/08/30 09:35:24.354] [0] CreateFileA \\.\PhysicalDrive1 code:0 000002E4
+[2022/08/30 09:35:24.356] FSCTL_LOCK_VOLUME success
+[2022/08/30 09:35:24.356] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/30 09:35:24.356] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/30 09:35:24.357] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:32194527232
+[2022/08/30 09:35:24.358] E: is belong to phydrive1
+[2022/08/30 09:35:24.358] Delete mountpoint E:\ ret:1 code:0
+[2022/08/30 09:35:24.359] Will use 'E:' as volume mountpoint
+[2022/08/30 09:35:26.309] VDS init OK, service 08632FFC
+[2022/08/30 09:35:26.345] Callback 1 process for disk <\\?\PhysicalDrive1>
+[2022/08/30 09:35:26.346] Deleting ALL partitions from disk '\\?\PhysicalDrive1':
+[2022/08/30 09:35:26.348] * Partition 1 (offset: 1048576, size: 32194527232) delete it.
+[2022/08/30 09:35:26.547] Delete this partitions success
+[2022/08/30 09:35:26.548] * Partition 2 (offset: 32195575808, size: 33554432) delete it.
+[2022/08/30 09:35:26.727] Delete this partitions success
+[2022/08/30 09:35:26.816] VDS_DeleteAllPartitions 1 ret:1 (SUCCESS)
+[2022/08/30 09:35:26.816] Deleting all partitions ......................... OK
+[2022/08/30 09:35:26.819] Lock disk for write ............................. 
+[2022/08/30 09:35:26.819] QueryDosDeviceA success \Device\Harddisk1\DR1
+[2022/08/30 09:35:26.820] [0] CreateFileA \\.\PhysicalDrive1 code:0 00000354
+[2022/08/30 09:35:26.821] Opened \\.\PhysicalDrive1 for exclusive write access
+[2022/08/30 09:35:26.926] FSCTL_LOCK_VOLUME success
+[2022/08/30 09:35:27.073] Write fisrt 1MB ret:1 size:2096640 err:183
+[2022/08/30 09:35:27.485] Write 2nd 1MB ret:1 size:2097152 err:183
+[2022/08/30 09:35:27.485] Read MBR ret:1 size:512 err:183
+[2022/08/30 09:35:27.489] Write MBR ret:1 size:512 err:183
+[2022/08/30 09:35:27.489] Clear Ventoy successfully finished
+[2022/08/30 09:35:27.494] Mounting Ventoy Partition ....................... 
+[2022/08/30 09:35:28.505] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/30 09:35:28.506] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/30 09:35:28.507] Logical drive letter after write ventoy: <>
+[2022/08/30 09:35:28.508] need to mount ventoy part1...
+[2022/08/30 09:35:28.508] GetVentoyVolumeName PhyDrive 1 SectorStart:2048 PartOffset:1048576
+[2022/08/30 09:35:28.509] Find volume:\\?\Volume{e7988f95-1183-465a-bd09-f166c4f19888}\
+[2022/08/30 09:35:28.509] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2022/08/30 09:35:28.509] NumberOfDiskExtents:1 DiskNumber:0
+[2022/08/30 09:35:28.510] This volume DiskNumber:0 offset:290455552
+[2022/08/30 09:35:28.510] Find volume:\\?\Volume{50c8befe-b39c-4fb5-b8a2-b3782ff11af9}\
+[2022/08/30 09:35:28.510] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2022/08/30 09:35:28.510] NumberOfDiskExtents:1 DiskNumber:0
+[2022/08/30 09:35:28.511] This volume DiskNumber:0 offset:215038820352
+[2022/08/30 09:35:28.511] Find volume:\\?\Volume{970277b4-243b-4c95-914d-248907526747}\
+[2022/08/30 09:35:28.511] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2022/08/30 09:35:28.511] NumberOfDiskExtents:1 DiskNumber:0
+[2022/08/30 09:35:28.511] This volume DiskNumber:0 offset:511061262336
+[2022/08/30 09:35:28.511] Find volume:\\?\Volume{47595de5-2448-11ed-99e7-b06088ed680d}\
+[2022/08/30 09:35:28.768] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2022/08/30 09:35:28.769] NumberOfDiskExtents:1 DiskNumber:1
+[2022/08/30 09:35:28.770] This volume DiskNumber:1 offset:1048576
+[2022/08/30 09:35:28.770] This volume match
+[2022/08/30 09:35:28.770] GetVentoyVolumeName return 0
+[2022/08/30 09:35:28.771] SetVolumeMountPoint <E:\> <\\?\Volume{47595de5-2448-11ed-99e7-b06088ed680d}\> bRet:1 code:0
+[2022/08/30 09:35:28.771] OK
+
+[2022/08/30 09:35:31.661] Not ventoy disk, set secure boot option
+[2022/08/30 09:35:44.283] SpaceMB:0 SizeInMB:30736
+[2022/08/30 09:35:44.289] #####################################################
+[2022/08/30 09:35:44.289] InstallVentoy2PhyDrive try1 GPT PhyDrive1 <<AI Mass Storage 32GB>>
+[2022/08/30 09:35:44.290] #####################################################
+[2022/08/30 09:35:44.292] Disk signature: 0x896fdb15
+[2022/08/30 09:35:44.292] Part1SectorCount:62879903 is not aligned by 4KB (7)
+[2022/08/30 09:35:44.293] Disk need to align with 4KB 7
+[2022/08/30 09:35:44.293] Lock disk for clean ............................. 
+[2022/08/30 09:35:44.293] QueryDosDeviceA success \Device\Harddisk1\DR1
+[2022/08/30 09:35:44.295] [0] CreateFileA \\.\PhysicalDrive1 code:0 00000370
+[2022/08/30 09:35:44.296] FSCTL_LOCK_VOLUME success
+[2022/08/30 09:35:44.296] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/30 09:35:44.297] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/30 09:35:44.316] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:32228081664
+[2022/08/30 09:35:44.317] E: is belong to phydrive1
+[2022/08/30 09:35:44.317] Delete mountpoint E:\ ret:1 code:0
+[2022/08/30 09:35:44.318] Will use 'E:' as volume mountpoint
+[2022/08/30 09:35:45.760] VDS init OK, service 086F6A74
+[2022/08/30 09:35:45.788] Callback 1 process for disk <\\?\PhysicalDrive1>
+[2022/08/30 09:35:45.789] Deleting ALL partitions from disk '\\?\PhysicalDrive1':
+[2022/08/30 09:35:45.790] * Partition 1 (offset: 1048576, size: 32228081664) delete it.
+[2022/08/30 09:35:45.886] Delete this partitions success
+[2022/08/30 09:35:45.887] VDS_DeleteAllPartitions 1 ret:1 (SUCCESS)
+[2022/08/30 09:35:45.887] Deleting all partitions ......................... OK
+[2022/08/30 09:35:45.888] Lock disk for write ............................. 
+[2022/08/30 09:35:45.890] QueryDosDeviceA success \Device\Harddisk1\DR1
+[2022/08/30 09:35:45.891] [0] CreateFileA \\.\PhysicalDrive1 code:0 00000394
+[2022/08/30 09:35:45.891] Opened \\.\PhysicalDrive1 for exclusive write access
+[2022/08/30 09:35:45.892] FSCTL_LOCK_VOLUME success
+[2022/08/30 09:35:45.895] Wait for format part1 ...
+[2022/08/30 09:35:50.907] Formatting part1 exFAT ...
+[2022/08/30 09:35:50.908] Formatting Part1 exFAT ...
+[2022/08/30 09:35:51.564] Formatting Part1 exFAT success
+[2022/08/30 09:35:51.569] Writing part2 FAT img ...
+[2022/08/30 09:35:51.569] FormatPart2Fat 62881944...
+[2022/08/30 09:35:51.575] Malloc whole img buffer success, now decompress ...
+[2022/08/30 09:35:52.179] decompress finished success
+[2022/08/30 09:35:52.180] VentoyProcSecureBoot 1 ...
+[2022/08/30 09:35:52.180] Secure boot is enabled ...
+[2022/08/30 09:35:53.464] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:53.531] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:53.599] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:53.700] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:53.769] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:53.836] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:53.935] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:54.004] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:54.072] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:54.640] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:54.711] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:54.781] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:54.880] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:54.949] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:55.019] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:55.117] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:55.189] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:55.255] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:55.827] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:55.898] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:55.966] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:56.066] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:56.136] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:56.206] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:56.307] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:56.376] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:56.445] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:57.007] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:57.077] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:57.147] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:57.246] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:57.317] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:57.407] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.292] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.342] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.394] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.446] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.498] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.549] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.603] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.656] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.710] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.763] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.813] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.865] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.917] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:58.969] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.019] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.068] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.117] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.165] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.212] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.257] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.307] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.358] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.411] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.464] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.516] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.568] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.619] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.674] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.724] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.776] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.828] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/30 09:35:59.836] Writing Boot Image ............................. 
+[2022/08/30 09:35:59.836] WriteGrubStage1ToPhyDrive ...
+[2022/08/30 09:35:59.848] Write GPT stage1 ...
+[2022/08/30 09:35:59.926] WriteFile Ret:1 dwSize:1031168 ErrCode:183
+[2022/08/30 09:35:59.929] Writing Partition Table ........................ 
+[2022/08/30 09:36:01.363] Write GPT Info OK ...
+[2022/08/30 09:36:01.377] Mounting Ventoy Partition ....................... 
+[2022/08/30 09:36:02.393] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/30 09:36:02.393] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/30 09:36:02.394] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:32194506752
+[2022/08/30 09:36:02.394] E: is belong to phydrive1
+[2022/08/30 09:36:02.395] Logical drive letter after write ventoy: <E>
+[2022/08/30 09:36:02.395] E:\ is ventoy part1, already mounted
+[2022/08/30 09:36:02.395] OK
+
+[2022/08/30 09:36:03.774] Combox select change, update secure boot option: 1 1
+[2022/08/31 08:57:05.492] 
+##################################################################################
+######################### Ventoy2DiskX86 (1.0.79) #########################
+##################################################################################
+[2022/08/31 08:57:05.492] Current directory:<C>
+[2022/08/31 08:57:05.497] id=11784/11532
+[2022/08/31 08:57:05.498] PPath:<C:\Windows\explorer.exe>
+[2022/08/31 08:57:05.498] PSize:<5025904 4908KB>
+[2022/08/31 08:57:05.498] Lunch main process 0
+[2022/08/31 08:57:05.499] Control Flag: 0 1 1
+[2022/08/31 08:57:05.501] Windows Version: <<Windows 11 Pro, 64-bit (Build 22000.856)>>
+[2022/08/31 08:57:05.502] 
+===================== Enum All PhyDrives =====================
+[2022/08/31 08:57:05.503] RegOpenKeyExA <SYSTEM\CurrentControlSet\Services\disk\Enum> Ret:0
+[2022/08/31 08:57:05.503] RegQueryValueExA <Count> ret:0  Size:4 Value:2
+[2022/08/31 08:57:05.503] GetPhysicalDriveCount: 2
+[2022/08/31 08:57:05.504] Logical Drives: 0x3c
+[2022/08/31 08:57:05.504] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/31 08:57:05.505] C --> 0
+[2022/08/31 08:57:05.505] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/31 08:57:05.505] D --> 0
+[2022/08/31 08:57:05.506] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:29985667072
+[2022/08/31 08:57:05.506] E --> 1
+[2022/08/31 08:57:05.506] LogicalDrive:\\.\F: PhyDrive:1 Offset:29986715648 ExtentLength:881699328
+[2022/08/31 08:57:05.507] F --> 1
+[2022/08/31 08:57:05.508] Create file Handle:00000124 \\.\PhysicalDrive0 status:0
+[2022/08/31 08:57:05.508] PHYSICALDRIVE0 size 512110190592 bytes
+[2022/08/31 08:57:05.510] Create file Handle:00000124 \\.\PhysicalDrive1 status:0
+[2022/08/31 08:57:05.510] PHYSICALDRIVE1 size 32229130240 bytes
+[2022/08/31 08:57:05.510] PhyDrv:0 BusType:RAID Removable:0 Size:512GB(512110190592) Name:NVMe SAMSUNG MZALQ512HALU-000L2
+[2022/08/31 08:57:05.510] PhyDrv:1 BusType:USB  Removable:1 Size:32GB(32229130240) Name:AI Mass Storage
+[2022/08/31 08:57:05.511] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/31 08:57:05.511] Logical Drive:C  ===> PhyDrive:0
+[2022/08/31 08:57:05.511] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/31 08:57:05.511] Logical Drive:D  ===> PhyDrive:0
+[2022/08/31 08:57:05.512] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:29985667072
+[2022/08/31 08:57:05.512] Logical Drive:E  ===> PhyDrive:1
+[2022/08/31 08:57:05.512] LogicalDrive:\\.\F: PhyDrive:1 Offset:29986715648 ExtentLength:881699328
+[2022/08/31 08:57:05.512] Logical Drive:F  ===> PhyDrive:1
+[2022/08/31 08:57:05.514] Create file Handle:00000124 \\.\PhysicalDrive1 status:0
+[2022/08/31 08:57:05.515] Read MBR Ret:1 Size:512 code:183
+[2022/08/31 08:57:05.516] =========== Disk1 GPT Partition 1 ============
+[2022/08/31 08:57:05.516] PartTbl.PartType = {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+[2022/08/31 08:57:05.516] PartTbl.PartGuid = {e1d35f3b-982c-497a-bd8b-8c20ed1e440e}
+[2022/08/31 08:57:05.516] PartTbl.StartLBA = 2048
+[2022/08/31 08:57:05.517] PartTbl.LastLBA = 58567803
+[2022/08/31 08:57:05.517] PartTbl.Attribute = 0x0
+[2022/08/31 08:57:05.517] PartTbl.Name = Ventoy
+[2022/08/31 08:57:05.517] =========== Disk1 GPT Partition 2 ============
+[2022/08/31 08:57:05.517] PartTbl.PartType = {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+[2022/08/31 08:57:05.518] PartTbl.PartGuid = {3e15574d-a360-4e45-97e0-13901caa7347}
+[2022/08/31 08:57:05.518] PartTbl.StartLBA = 58567804
+[2022/08/31 08:57:05.518] PartTbl.LastLBA = 60289872
+[2022/08/31 08:57:05.518] PartTbl.Attribute = 0x0
+[2022/08/31 08:57:05.519] PartTbl.Name = Basic data partition
+[2022/08/31 08:57:05.519] =========== Disk1 GPT Partition 3 ============
+[2022/08/31 08:57:05.519] PartTbl.PartType = {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+[2022/08/31 08:57:05.519] PartTbl.PartGuid = {8169ce12-b108-4b07-842a-b638d84c6810}
+[2022/08/31 08:57:05.520] PartTbl.StartLBA = 62881944
+[2022/08/31 08:57:05.520] PartTbl.LastLBA = 62947479
+[2022/08/31 08:57:05.520] PartTbl.Attribute = 0xc000000000000001
+[2022/08/31 08:57:05.520] PartTbl.Name = VTOYEFI
+[2022/08/31 08:57:05.521] Invalid ventoy efi part name <Basic data partition>
+[2022/08/31 08:57:05.521] <NVMe SAMSUNG MZALQ512HALU-000L2> is filtered for not USB type.
+[2022/08/31 08:57:05.569] Load languages from json file ...
+[2022/08/31 08:57:05.571] language json file len:226881 json parse:0
+[2022/08/31 08:57:05.572] Total 47 languages ...
+[2022/08/31 08:57:05.637] Not ventoy disk, set secure boot option
+[2022/08/31 09:09:42.916] 
+##################################################################################
+######################### Ventoy2DiskX86 (1.0.79) #########################
+##################################################################################
+[2022/08/31 09:09:42.917] Current directory:<C>
+[2022/08/31 09:09:42.922] id=4864/11532
+[2022/08/31 09:09:42.922] PPath:<C:\Windows\explorer.exe>
+[2022/08/31 09:09:42.923] PSize:<5025904 4908KB>
+[2022/08/31 09:09:42.923] Lunch main process 0
+[2022/08/31 09:09:42.923] Control Flag: 0 1 1
+[2022/08/31 09:09:42.925] Windows Version: <<Windows 11 Pro, 64-bit (Build 22000.856)>>
+[2022/08/31 09:09:42.926] 
+===================== Enum All PhyDrives =====================
+[2022/08/31 09:09:42.926] RegOpenKeyExA <SYSTEM\CurrentControlSet\Services\disk\Enum> Ret:0
+[2022/08/31 09:09:42.926] RegQueryValueExA <Count> ret:0  Size:4 Value:2
+[2022/08/31 09:09:42.927] GetPhysicalDriveCount: 2
+[2022/08/31 09:09:42.927] Logical Drives: 0x3c
+[2022/08/31 09:09:42.928] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/31 09:09:42.928] C --> 0
+[2022/08/31 09:09:42.928] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/31 09:09:42.928] D --> 0
+[2022/08/31 09:09:42.929] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:29985667072
+[2022/08/31 09:09:42.929] E --> 1
+[2022/08/31 09:09:42.935] LogicalDrive:\\.\F: PhyDrive:1 Offset:29986715648 ExtentLength:881699328
+[2022/08/31 09:09:42.935] F --> 1
+[2022/08/31 09:09:42.937] Create file Handle:00000128 \\.\PhysicalDrive0 status:0
+[2022/08/31 09:09:42.937] PHYSICALDRIVE0 size 512110190592 bytes
+[2022/08/31 09:09:42.938] Create file Handle:00000128 \\.\PhysicalDrive1 status:0
+[2022/08/31 09:09:42.939] PHYSICALDRIVE1 size 32229130240 bytes
+[2022/08/31 09:09:42.939] PhyDrv:0 BusType:RAID Removable:0 Size:512GB(512110190592) Name:NVMe SAMSUNG MZALQ512HALU-000L2
+[2022/08/31 09:09:42.939] PhyDrv:1 BusType:USB  Removable:1 Size:32GB(32229130240) Name:AI Mass Storage
+[2022/08/31 09:09:42.940] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/31 09:09:42.940] Logical Drive:C  ===> PhyDrive:0
+[2022/08/31 09:09:42.940] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/31 09:09:42.940] Logical Drive:D  ===> PhyDrive:0
+[2022/08/31 09:09:42.941] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:29985667072
+[2022/08/31 09:09:42.941] Logical Drive:E  ===> PhyDrive:1
+[2022/08/31 09:09:42.946] LogicalDrive:\\.\F: PhyDrive:1 Offset:29986715648 ExtentLength:881699328
+[2022/08/31 09:09:42.946] Logical Drive:F  ===> PhyDrive:1
+[2022/08/31 09:09:42.948] Create file Handle:00000134 \\.\PhysicalDrive1 status:0
+[2022/08/31 09:09:42.949] Read MBR Ret:1 Size:512 code:183
+[2022/08/31 09:09:42.950] =========== Disk1 GPT Partition 1 ============
+[2022/08/31 09:09:42.950] PartTbl.PartType = {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+[2022/08/31 09:09:42.951] PartTbl.PartGuid = {e1d35f3b-982c-497a-bd8b-8c20ed1e440e}
+[2022/08/31 09:09:42.951] PartTbl.StartLBA = 2048
+[2022/08/31 09:09:42.951] PartTbl.LastLBA = 58567803
+[2022/08/31 09:09:42.951] PartTbl.Attribute = 0x0
+[2022/08/31 09:09:42.951] PartTbl.Name = Ventoy
+[2022/08/31 09:09:42.952] =========== Disk1 GPT Partition 2 ============
+[2022/08/31 09:09:42.952] PartTbl.PartType = {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+[2022/08/31 09:09:42.952] PartTbl.PartGuid = {3e15574d-a360-4e45-97e0-13901caa7347}
+[2022/08/31 09:09:42.952] PartTbl.StartLBA = 58567804
+[2022/08/31 09:09:42.952] PartTbl.LastLBA = 60289872
+[2022/08/31 09:09:42.952] PartTbl.Attribute = 0x0
+[2022/08/31 09:09:42.953] PartTbl.Name = Basic data partition
+[2022/08/31 09:09:42.953] =========== Disk1 GPT Partition 3 ============
+[2022/08/31 09:09:42.953] PartTbl.PartType = {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+[2022/08/31 09:09:42.953] PartTbl.PartGuid = {8169ce12-b108-4b07-842a-b638d84c6810}
+[2022/08/31 09:09:42.953] PartTbl.StartLBA = 62881944
+[2022/08/31 09:09:42.953] PartTbl.LastLBA = 62947479
+[2022/08/31 09:09:42.954] PartTbl.Attribute = 0xc000000000000001
+[2022/08/31 09:09:42.954] PartTbl.Name = VTOYEFI
+[2022/08/31 09:09:42.954] Invalid ventoy efi part name <Basic data partition>
+[2022/08/31 09:09:42.954] <NVMe SAMSUNG MZALQ512HALU-000L2> is filtered for not USB type.
+[2022/08/31 09:09:42.988] Load languages from json file ...
+[2022/08/31 09:09:42.989] language json file len:226881 json parse:0
+[2022/08/31 09:09:42.989] Total 47 languages ...
+[2022/08/31 09:09:43.030] Not ventoy disk, set secure boot option
+[2022/08/31 09:09:51.789] SpaceMB:0 SizeInMB:30736
+[2022/08/31 09:09:51.792] #####################################################
+[2022/08/31 09:09:51.792] InstallVentoy2PhyDrive try1 GPT PhyDrive1 <<AI Mass Storage 32GB>>
+[2022/08/31 09:09:51.792] #####################################################
+[2022/08/31 09:09:51.795] Copy boot img success
+[2022/08/31 09:09:51.796] Disk signature: 0x5f4048fe
+[2022/08/31 09:09:51.797] Part1SectorCount:62879903 is not aligned by 4KB (7)
+[2022/08/31 09:09:51.797] Disk need to align with 4KB 7
+[2022/08/31 09:09:51.797] Lock disk for clean ............................. 
+[2022/08/31 09:09:51.797] QueryDosDeviceA success \Device\Harddisk1\DR2
+[2022/08/31 09:09:51.798] [0] CreateFileA \\.\PhysicalDrive1 code:0 000002C4
+[2022/08/31 09:09:51.800] FSCTL_LOCK_VOLUME success
+[2022/08/31 09:09:51.800] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/31 09:09:51.800] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/31 09:09:51.801] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:29985667072
+[2022/08/31 09:09:51.801] E: is belong to phydrive1
+[2022/08/31 09:09:51.806] LogicalDrive:\\.\F: PhyDrive:1 Offset:29986715648 ExtentLength:881699328
+[2022/08/31 09:09:51.806] F: is belong to phydrive1
+[2022/08/31 09:09:51.807] Delete mountpoint F:\ ret:1 code:0
+[2022/08/31 09:09:51.808] Delete mountpoint E:\ ret:1 code:0
+[2022/08/31 09:09:51.809] Will use 'E:' as volume mountpoint
+[2022/08/31 09:09:53.206] VDS init OK, service 03EEFAA4
+[2022/08/31 09:09:53.217] Callback 1 process for disk <\\?\PhysicalDrive1>
+[2022/08/31 09:09:53.217] Deleting ALL partitions from disk '\\?\PhysicalDrive1':
+[2022/08/31 09:09:53.218] * Partition 1 (offset: 1048576, size: 29985667072) delete it.
+[2022/08/31 09:09:53.973] Delete this partitions success
+[2022/08/31 09:09:53.973] * Partition 2 (offset: 29986715648, size: 881699328) delete it.
+[2022/08/31 09:09:54.976] Delete this partitions success
+[2022/08/31 09:09:54.977] * Partition 3 (offset: 32195555328, size: 33554432) delete it.
+[2022/08/31 09:09:55.128] Delete this partitions success
+[2022/08/31 09:09:55.129] VDS_DeleteAllPartitions 1 ret:1 (SUCCESS)
+[2022/08/31 09:09:55.129] Deleting all partitions ......................... OK
+[2022/08/31 09:09:55.131] Lock disk for write ............................. 
+[2022/08/31 09:09:55.132] QueryDosDeviceA success \Device\Harddisk1\DR2
+[2022/08/31 09:09:55.134] [0] CreateFileA \\.\PhysicalDrive1 code:0 0000033C
+[2022/08/31 09:09:55.135] Opened \\.\PhysicalDrive1 for exclusive write access
+[2022/08/31 09:09:55.135] FSCTL_LOCK_VOLUME success
+[2022/08/31 09:09:55.140] Wait for format part1 ...
+[2022/08/31 09:10:00.153] Formatting part1 exFAT ...
+[2022/08/31 09:10:00.154] Formatting Part1 exFAT ...
+[2022/08/31 09:10:00.821] Formatting Part1 exFAT success
+[2022/08/31 09:10:00.825] Writing part2 FAT img ...
+[2022/08/31 09:10:00.826] FormatPart2Fat 62881944...
+[2022/08/31 09:10:00.841] Malloc whole img buffer success, now decompress ...
+[2022/08/31 09:10:01.440] decompress finished success
+[2022/08/31 09:10:01.441] VentoyProcSecureBoot 1 ...
+[2022/08/31 09:10:01.441] Secure boot is enabled ...
+[2022/08/31 09:10:02.720] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:02.795] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:02.869] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:02.972] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:03.044] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:03.111] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:03.206] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:03.273] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:03.345] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:03.910] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:03.982] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:04.055] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:04.159] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:04.231] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:04.298] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:04.394] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:04.465] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:04.536] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:05.102] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:05.176] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:05.249] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:05.348] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:05.415] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:05.478] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:05.574] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:05.645] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:05.717] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:06.283] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:06.353] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:06.422] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:06.525] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:06.591] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:06.677] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:07.561] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:07.614] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:07.667] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:07.719] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:07.765] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:07.815] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:07.866] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:07.917] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:07.968] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.021] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.074] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.127] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.180] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.236] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.290] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.345] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.397] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.450] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.499] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.550] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.604] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.657] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.709] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.764] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.817] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.870] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.916] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:08.964] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:09.017] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:09.067] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:09.122] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:10:09.132] Writing Boot Image ............................. 
+[2022/08/31 09:10:09.133] WriteGrubStage1ToPhyDrive ...
+[2022/08/31 09:10:09.150] Write GPT stage1 ...
+[2022/08/31 09:10:09.228] WriteFile Ret:1 dwSize:1031168 ErrCode:183
+[2022/08/31 09:10:09.232] Writing Partition Table ........................ 
+[2022/08/31 09:10:10.624] Write GPT Info OK ...
+[2022/08/31 09:10:10.634] Mounting Ventoy Partition ....................... 
+[2022/08/31 09:10:11.649] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/31 09:10:11.649] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/31 09:10:11.650] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:32194506752
+[2022/08/31 09:10:11.650] E: is belong to phydrive1
+[2022/08/31 09:10:11.650] Logical drive letter after write ventoy: <E>
+[2022/08/31 09:10:11.651] E:\ is ventoy part1, already mounted
+[2022/08/31 09:10:11.651] OK
+
+[2022/08/31 09:10:14.116] Combox select change, update secure boot option: 1 1
+[2022/08/31 09:10:57.584] #####################################################
+[2022/08/31 09:10:57.584] UpdateVentoy2PhyDrive try1 GPT PhyDrive1 <<AI Mass Storage 32GB>>
+[2022/08/31 09:10:57.585] #####################################################
+[2022/08/31 09:10:57.587] Lock disk for umount ............................ 
+[2022/08/31 09:10:57.587] QueryDosDeviceA success \Device\Harddisk1\DR2
+[2022/08/31 09:10:57.588] [0] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:57.588] Waiting for access on \\.\PhysicalDrive1 [\Device\Harddisk1\DR2]...
+[2022/08/31 09:10:57.694] [1] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:57.804] [2] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:57.912] [3] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.021] [4] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.128] [5] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.238] [6] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.349] [7] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.457] [8] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.565] [9] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.673] [10] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.782] [11] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.891] [12] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:58.999] [13] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:59.108] [14] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:59.217] [15] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:59.326] [16] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:59.436] [17] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:59.543] [18] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:59.652] [19] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:59.759] [20] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:59.868] [21] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:10:59.978] [22] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:00.087] [23] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:00.195] [24] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:00.304] [25] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:00.413] [26] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:00.522] [27] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:00.632] [28] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:00.741] [29] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:00.850] [30] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:00.959] [31] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:01.070] [32] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:01.178] [33] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:01.287] [34] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:01.396] [35] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:01.505] [36] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:01.614] [37] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:01.723] [38] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:01.832] [39] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:01.943] [40] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:02.050] [41] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:02.159] [42] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:02.269] [43] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:02.377] [44] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:02.485] [45] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:02.595] [46] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:02.705] [47] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:02.814] [48] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:02.922] [49] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:03.031] [50] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:03.141] [51] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:03.141] Warning: Could not obtain exclusive rights. Retrying with write sharing enabled...
+[2022/08/31 09:11:03.248] [52] CreateFileA \\.\PhysicalDrive1 code:0 000002DC
+[2022/08/31 09:11:18.279] Could not lock access to \\.\PhysicalDrive1 5
+[2022/08/31 09:11:18.279] Can get handle of \Device\Harddisk1\DR2, maybe some process control it.
+[2022/08/31 09:11:18.281] Failed to open physical disk
+[2022/08/31 09:11:18.282] This time update failed, now wait and retry...
+[2022/08/31 09:11:22.295] Now retry to update...
+[2022/08/31 09:11:22.296] #####################################################
+[2022/08/31 09:11:22.297] UpdateVentoy2PhyDrive try2 GPT PhyDrive1 <<AI Mass Storage 32GB>>
+[2022/08/31 09:11:22.298] #####################################################
+[2022/08/31 09:11:22.302] Lock disk for umount ............................ 
+[2022/08/31 09:11:22.303] QueryDosDeviceA success \Device\Harddisk1\DR2
+[2022/08/31 09:11:22.304] [0] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:22.305] Waiting for access on \\.\PhysicalDrive1 [\Device\Harddisk1\DR2]...
+[2022/08/31 09:11:22.421] [1] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:22.529] [2] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:22.636] [3] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:22.746] [4] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:22.855] [5] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:22.963] [6] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:23.073] [7] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:23.182] [8] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:23.291] [9] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:23.399] [10] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:23.508] [11] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:23.617] [12] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:23.727] [13] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:23.836] [14] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:23.944] [15] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:24.053] [16] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:24.161] [17] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:24.271] [18] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:24.381] [19] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:24.489] [20] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:24.599] [21] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:24.707] [22] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:24.815] [23] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:24.926] [24] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:25.035] [25] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:25.145] [26] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:25.254] [27] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:25.362] [28] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:25.472] [29] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:25.581] [30] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:25.690] [31] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:25.799] [32] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:25.909] [33] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:26.016] [34] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:26.123] [35] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:26.233] [36] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:26.343] [37] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:26.452] [38] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:26.562] [39] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:26.673] [40] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:26.783] [41] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:26.892] [42] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.001] [43] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.110] [44] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.220] [45] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.329] [46] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.438] [47] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.547] [48] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.654] [49] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.763] [50] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.872] [51] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:27.872] Warning: Could not obtain exclusive rights. Retrying with write sharing enabled...
+[2022/08/31 09:11:27.981] [52] CreateFileA \\.\PhysicalDrive1 code:0 000002DC
+[2022/08/31 09:11:43.006] Could not lock access to \\.\PhysicalDrive1 5
+[2022/08/31 09:11:43.006] Can get handle of \Device\Harddisk1\DR2, maybe some process control it.
+[2022/08/31 09:11:43.007] Failed to open physical disk
+[2022/08/31 09:11:44.018] Now retry to update...
+[2022/08/31 09:11:44.019] #####################################################
+[2022/08/31 09:11:44.019] UpdateVentoy2PhyDrive try3 GPT PhyDrive1 <<AI Mass Storage 32GB>>
+[2022/08/31 09:11:44.020] #####################################################
+[2022/08/31 09:11:44.024] Lock disk for umount ............................ 
+[2022/08/31 09:11:44.025] QueryDosDeviceA success \Device\Harddisk1\DR2
+[2022/08/31 09:11:44.025] [0] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:44.026] Waiting for access on \\.\PhysicalDrive1 [\Device\Harddisk1\DR2]...
+[2022/08/31 09:11:44.142] [1] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:44.251] [2] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:44.361] [3] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:44.469] [4] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:44.576] [5] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:44.685] [6] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:44.793] [7] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:44.902] [8] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.012] [9] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.122] [10] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.230] [11] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.341] [12] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.450] [13] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.559] [14] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.668] [15] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.777] [16] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.885] [17] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:45.995] [18] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:46.105] [19] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:46.213] [20] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:46.322] [21] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:46.431] [22] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:46.541] [23] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:46.649] [24] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:46.758] [25] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:46.867] [26] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:46.976] [27] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:47.084] [28] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:47.192] [29] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:47.302] [30] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:47.412] [31] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:47.522] [32] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:47.631] [33] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:47.740] [34] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:47.848] [35] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:47.956] [36] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:48.064] [37] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:48.172] [38] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:48.281] [39] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:48.389] [40] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:48.499] [41] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:48.606] [42] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:48.714] [43] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:48.824] [44] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:48.933] [45] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:49.041] [46] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:49.150] [47] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:49.257] [48] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:49.365] [49] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:49.474] [50] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:49.582] [51] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:11:49.582] Warning: Could not obtain exclusive rights. Retrying with write sharing enabled...
+[2022/08/31 09:11:49.692] [52] CreateFileA \\.\PhysicalDrive1 code:0 00000384
+[2022/08/31 09:12:03.702] FSCTL_LOCK_VOLUME success
+[2022/08/31 09:12:03.704] GPT StartSector in PartTbl:62881944
+[2022/08/31 09:12:03.705] GPT Reserved Disk Space:0 MB
+[2022/08/31 09:12:03.706] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/31 09:12:03.707] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/31 09:12:03.707] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:32194506752
+[2022/08/31 09:12:03.708] E: is belong to phydrive1
+[2022/08/31 09:12:03.709] TryId=3 EFI GPT partition type is 0x0
+[2022/08/31 09:12:04.851] VDS init OK, service 00DED98C
+[2022/08/31 09:12:04.857] Callback 1 process for disk <\\?\PhysicalDrive1>
+[2022/08/31 09:12:04.857] Deleting partition(offset=32195555328) from disk '\\?\PhysicalDrive1':
+[2022/08/31 09:12:04.857]   Partition 1 (offset: 1048576, size: 32194506752) skip it.
+[2022/08/31 09:12:04.858] * Partition 2 (offset: 32195555328, size: 33554432) delete it.
+[2022/08/31 09:12:05.543] Delete this partitions success
+[2022/08/31 09:12:05.543] VDS_DeleteVtoyEFIPartition 1 ret:1 (SUCCESS)
+[2022/08/31 09:12:05.545] Lock disk for update ............................ 
+[2022/08/31 09:12:05.545] QueryDosDeviceA success \Device\Harddisk1\DR2
+[2022/08/31 09:12:05.547] [0] CreateFileA \\.\PhysicalDrive1 code:0 0000035C
+[2022/08/31 09:12:05.547] Opened \\.\PhysicalDrive1 for exclusive write access
+[2022/08/31 09:12:05.549] FSCTL_LOCK_VOLUME success
+[2022/08/31 09:12:05.550] Lock volume for update .......................... 
+[2022/08/31 09:12:05.551] Volume not found, maybe not supported
+[2022/08/31 09:12:07.087] Try write part2 bRet:1 dwSize:16384 code:183
+[2022/08/31 09:12:07.089] Write Ventoy to disk ............................ 
+[2022/08/31 09:12:07.090] FormatPart2Fat 62881944...
+[2022/08/31 09:12:07.096] Malloc whole img buffer success, now decompress ...
+[2022/08/31 09:12:07.745] decompress finished success
+[2022/08/31 09:12:07.746] VentoyProcSecureBoot 1 ...
+[2022/08/31 09:12:07.746] Secure boot is enabled ...
+[2022/08/31 09:12:09.089] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:09.157] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:09.226] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:09.323] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:09.394] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:09.464] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:09.564] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:09.630] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:09.697] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:10.261] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:10.328] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:10.398] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:10.494] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:10.560] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:10.627] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:10.726] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:10.794] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:10.858] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:11.421] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:11.492] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:11.563] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:11.666] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:11.732] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:11.803] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:11.901] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:11.969] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:12.032] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:12.592] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:12.662] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:12.729] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:12.830] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:12.901] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:12.953] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:13.835] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:13.888] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:13.938] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:13.989] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.039] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.089] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.140] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.188] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.236] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.282] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.330] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.376] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.425] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.474] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.521] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.569] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.620] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.668] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.718] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.768] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.815] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.861] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.911] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:14.959] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:15.008] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:15.056] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:15.104] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:15.155] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:15.204] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:15.253] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:15.302] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:12:15.309] Updating Boot Image ............................. 
+[2022/08/31 09:12:15.309] WriteGrubStage1ToPhyDrive ...
+[2022/08/31 09:12:15.320] Write GPT stage1 ...
+[2022/08/31 09:12:15.396] WriteFile Ret:1 dwSize:1031168 ErrCode:183
+[2022/08/31 09:12:15.400] Write resv data ret:1 dwSize:4096 Error:183
+[2022/08/31 09:12:15.400] Boot image has no difference, no need to write.
+[2022/08/31 09:12:15.400] WriteBackupDataToDisk 32229129728 0100F7E0 512
+[2022/08/31 09:12:15.410] WriteBackupDataToDisk 32229129728 0100F7E0 512 success
+[2022/08/31 09:12:15.410] WriteBackupDataToDisk 32229113344 03F2D4A0 16384
+[2022/08/31 09:12:15.954] WriteBackupDataToDisk 32229113344 03F2D4A0 16384 success
+[2022/08/31 09:12:15.954] WriteBackupDataToDisk 512 03F2D2A0 16896
+[2022/08/31 09:12:16.792] WriteBackupDataToDisk 512 03F2D2A0 16896 success
+[2022/08/31 09:12:16.793] Write backup partition table success
+[2022/08/31 09:12:18.728] OK
+[2022/08/31 09:12:18.729] Change EFI partition attr 0 <0x0> to <0xc000000000000001>
+[2022/08/31 09:12:18.767] VDS init OK, service 00DEE004
+[2022/08/31 09:12:18.826] Callback 1 process for disk <\\?\PhysicalDrive1>
+[2022/08/31 09:12:18.827] ** Partition 2 (offset: 32195555328, size: 33554432, Attr:0xc000000000000001)
+[2022/08/31 09:12:18.827] Attribute match, No need to change.
+[2022/08/31 09:12:18.827] VDS_ChangeVtoyEFIAttr 1 (offset:32195555328) ret:1 (SUCCESS)
+[2022/08/31 09:12:18.827] Change EFI partition attr success
+[2022/08/31 09:12:49.684] Combox select change, update secure boot option: 1 1
+[2022/08/31 09:13:30.987] SpaceMB:1024 SizeInMB:30736
+[2022/08/31 09:13:30.994] #####################################################
+[2022/08/31 09:13:30.994] InstallVentoy2PhyDrive try1 GPT PhyDrive1 <<AI Mass Storage 32GB>>
+[2022/08/31 09:13:30.994] #####################################################
+[2022/08/31 09:13:30.996] Disk signature: 0xa9280be0
+[2022/08/31 09:13:30.997] Part1SectorCount:60782751 is not aligned by 4KB (7)
+[2022/08/31 09:13:30.997] Disk need to align with 4KB 7
+[2022/08/31 09:13:30.997] Lock disk for clean ............................. 
+[2022/08/31 09:13:30.997] QueryDosDeviceA success \Device\Harddisk1\DR2
+[2022/08/31 09:13:30.997] [0] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:30.998] Waiting for access on \\.\PhysicalDrive1 [\Device\Harddisk1\DR2]...
+[2022/08/31 09:13:31.111] [1] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:31.221] [2] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:31.330] [3] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:31.438] [4] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:31.546] [5] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:31.655] [6] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:31.763] [7] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:31.872] [8] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:31.981] [9] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:32.091] [10] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:32.199] [11] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:32.308] [12] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:32.416] [13] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:32.524] [14] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:32.635] [15] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:32.746] [16] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:32.855] [17] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:32.964] [18] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:33.073] [19] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:33.181] [20] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:33.290] [21] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:33.398] [22] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:33.505] [23] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:33.615] [24] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:33.724] [25] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:33.833] [26] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:33.943] [27] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:34.052] [28] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:34.161] [29] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:34.271] [30] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:34.379] [31] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:34.488] [32] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:34.595] [33] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:34.703] [34] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:34.811] [35] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:34.922] [36] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:35.031] [37] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:35.139] [38] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:35.249] [39] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:35.358] [40] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:35.468] [41] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:35.578] [42] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:35.685] [43] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:35.795] [44] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:35.904] [45] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:36.015] [46] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:36.123] [47] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:36.233] [48] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:36.340] [49] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:36.450] [50] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:36.559] [51] CreateFileA \\.\PhysicalDrive1 code:32 FFFFFFFF
+[2022/08/31 09:13:36.560] Warning: Could not obtain exclusive rights. Retrying with write sharing enabled...
+[2022/08/31 09:13:36.669] [52] CreateFileA \\.\PhysicalDrive1 code:0 0000034C
+[2022/08/31 09:13:45.742] FSCTL_LOCK_VOLUME success
+[2022/08/31 09:13:45.743] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/31 09:13:45.743] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/31 09:13:45.743] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:32194506752
+[2022/08/31 09:13:45.743] E: is belong to phydrive1
+[2022/08/31 09:13:45.744] Delete mountpoint E:\ ret:1 code:0
+[2022/08/31 09:13:45.744] Will use 'E:' as volume mountpoint
+[2022/08/31 09:13:46.929] VDS init OK, service 03F4520C
+[2022/08/31 09:13:46.937] Callback 1 process for disk <\\?\PhysicalDrive1>
+[2022/08/31 09:13:46.938] Deleting ALL partitions from disk '\\?\PhysicalDrive1':
+[2022/08/31 09:13:46.938] * Partition 1 (offset: 1048576, size: 32194506752) delete it.
+[2022/08/31 09:13:47.636] Delete this partitions success
+[2022/08/31 09:13:47.636] * Partition 2 (offset: 32195555328, size: 33554432) delete it.
+[2022/08/31 09:13:49.165] Delete this partitions success
+[2022/08/31 09:13:49.166] VDS_DeleteAllPartitions 1 ret:1 (SUCCESS)
+[2022/08/31 09:13:49.166] Deleting all partitions ......................... OK
+[2022/08/31 09:13:49.167] Lock disk for write ............................. 
+[2022/08/31 09:13:49.168] QueryDosDeviceA success \Device\Harddisk1\DR2
+[2022/08/31 09:13:49.169] [0] CreateFileA \\.\PhysicalDrive1 code:0 00000354
+[2022/08/31 09:13:49.169] Opened \\.\PhysicalDrive1 for exclusive write access
+[2022/08/31 09:13:49.169] FSCTL_LOCK_VOLUME success
+[2022/08/31 09:13:49.173] Formatting part1 exFAT ...
+[2022/08/31 09:13:49.173] Formatting Part1 exFAT ...
+[2022/08/31 09:13:50.644] Formatting Part1 exFAT success
+[2022/08/31 09:13:50.646] Writing part2 FAT img ...
+[2022/08/31 09:13:50.646] FormatPart2Fat 60784792...
+[2022/08/31 09:13:50.650] Malloc whole img buffer success, now decompress ...
+[2022/08/31 09:13:51.264] decompress finished success
+[2022/08/31 09:13:51.265] VentoyProcSecureBoot 1 ...
+[2022/08/31 09:13:51.265] Secure boot is enabled ...
+[2022/08/31 09:13:51.465] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:51.561] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:51.627] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:51.694] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:51.790] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:51.857] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:51.923] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:52.490] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:52.555] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:52.622] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:52.719] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:52.783] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:52.849] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:52.944] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:53.007] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:53.074] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:53.637] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:53.700] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:53.766] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:53.862] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:53.928] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:53.993] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:54.088] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:54.156] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:54.221] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:54.784] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:54.850] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:54.915] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:55.011] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:55.077] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:55.144] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:55.238] Write part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:55.290] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.003] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.052] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.102] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.152] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.203] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.252] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.300] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.349] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.396] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.445] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.493] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.543] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.591] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.641] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.689] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.736] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.785] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.834] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.882] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.930] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:56.979] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.026] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.074] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.123] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.172] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.219] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.269] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.319] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.368] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.417] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.467] Read part data bRet:1 dwSize:1048576 code:183
+[2022/08/31 09:13:57.475] Writing Boot Image ............................. 
+[2022/08/31 09:13:57.476] WriteGrubStage1ToPhyDrive ...
+[2022/08/31 09:13:57.486] Write GPT stage1 ...
+[2022/08/31 09:13:57.564] WriteFile Ret:1 dwSize:1031168 ErrCode:183
+[2022/08/31 09:13:57.566] Writing Partition Table ........................ 
+[2022/08/31 09:13:58.956] Write GPT Info OK ...
+[2022/08/31 09:13:58.963] Mounting Ventoy Partition ....................... 
+[2022/08/31 09:13:59.966] LogicalDrive:\\.\C: PhyDrive:0 Offset:290455552 ExtentLength:214748364800
+[2022/08/31 09:13:59.967] LogicalDrive:\\.\D: PhyDrive:0 Offset:215038820352 ExtentLength:296022441984
+[2022/08/31 09:13:59.967] LogicalDrive:\\.\E: PhyDrive:1 Offset:1048576 ExtentLength:31120764928
+[2022/08/31 09:13:59.967] E: is belong to phydrive1
+[2022/08/31 09:13:59.967] Logical drive letter after write ventoy: <E>
+[2022/08/31 09:13:59.968] E:\ is ventoy part1, already mounted
+[2022/08/31 09:13:59.968] OK
+
+[2022/08/31 09:14:11.906] Combox select change, update secure boot option: 1 1
